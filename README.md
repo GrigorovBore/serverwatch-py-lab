@@ -1,36 +1,18 @@
 # serverwatch-py-lab
 
-> **Status:** Planning
-
 ## Project Overview
 
-**serverwatch-py-lab** is a personal DevOps learning project focused on building, containerizing, and deploying a simple Python application that monitors basic Linux system metrics.
-
-The application is developed locally on a Windows laptop, containerized with Docker, version-controlled with Git and GitHub, and deployed to a physical Ubuntu server running Docker Engine.
+**serverwatch-py-lab** is a personal learning project where I'm building a small Python application to practice a complete DevOps workflow. The application collects basic Linux system metrics and is developed on Windows, containerized with Docker, and deployed to a self-hosted Ubuntu server.
 
 ---
 
 ## Project Goal
 
-The goal of this project is to gain practical experience with the DevOps development lifecycle by building a small but complete application from scratch.
-
-The project focuses on understanding and applying:
-
-* Python
-* Linux
-* Git & GitHub
-* Docker
-* GitHub Actions
-* Container image publishing
-* Deployment to a Linux server
-
-The application is intentionally kept simple so that every technology and implementation decision can be fully understood.
+I built this project to practice the complete DevOps workflow—from writing the application to deploying it on a Linux server. Along the way, I'm gaining hands-on experience with Python, Docker, GitHub Actions, Git, and Linux while learning how these tools fit together in a real deployment workflow.
 
 ---
 
-## Version 1 Features
-
-The first version of the application will display:
+## Planned Features (v1)
 
 * CPU usage
 * Memory usage
@@ -55,19 +37,13 @@ The first version of the application will display:
 
 * Dell PowerEdge R330
 * Ubuntu Server 26.04 LTS
-* Docker Engine *(to be installed)*
+* Docker Engine
 
 ---
 
 ## Current Status
 
-* [x] Project planned
-* [x] Development environment inspected
-* [ ] Git repository initialized
-* [ ] Application development started
-* [ ] Docker image created
-* [ ] GitHub Actions configured
-* [ ] Production deployment completed
+Planning and initial setup.
 
 ---
 
@@ -83,7 +59,3 @@ Possible future enhancements include:
 * Simple web interface
 
 ---
-
-## License
-
-To be decided.
