@@ -2,6 +2,7 @@
 
 import socket
 import psutil
+import os
 
 # 2. Functions
 
@@ -14,6 +15,9 @@ def get_cpu_usage():
 def get_memory_usage():
     return psutil.virtual_memory().percent
 
+def get_disk_usage():
+    return psutil.disk_usage(os.path.abspath(os.sep)).percent
+
 # 3. Main Program
 
 print("ServerWatch v1.0")
@@ -23,7 +27,7 @@ print(f'Hostname:      {get_hostname()}')
 print('Measuring CPU usage... please wait 5 seconds.')
 print(f'CPU usage:     {get_cpu_usage()}%')
 print(f'Memory used:   {get_memory_usage()}%')
+print(f'Disk:          {get_disk_usage()}%')
 
 
-# print(f"Disk:     {get_disk_usage()}%")
 # print(f"Uptime:   {get_uptime()}")
