@@ -30,12 +30,13 @@ def get_uptime():
 
 # 3. Main Program
 
+print('================')
 print('ServerWatch v1.0')
 print('================')
 
-print(f'Hostname:      {get_hostname()}')
-print('Measuring CPU usage... please wait 5 seconds.')
-print(f'CPU usage:     {get_cpu_usage()}%')
-print(f'Memory used:   {get_memory_usage()}%')
-print(f'Disk:          {get_disk_usage()}%')
-print(f'Uptime:        {get_uptime()}')
+print(f'1. Hostname:      {get_hostname()}')
+print('Measuring CPU usage (5 seconds)...')
+print(f'2. CPU usage:     {get_cpu_usage()}%')
+print(f'3. Memory used:   {get_memory_usage()}%')
+print(f'4. Disk used:     {get_disk_usage()}%')
+print(f'5. Uptime:        {get_uptime()}')
