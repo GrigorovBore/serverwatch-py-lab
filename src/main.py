@@ -30,8 +30,8 @@ def get_uptime():
 
 # 3. Main Program
 
-print("ServerWatch v1.0")
-print("================")
+print('ServerWatch v1.0')
+print('================')
 
 print(f'Hostname:      {get_hostname()}')
 print('Measuring CPU usage... please wait 5 seconds.')
