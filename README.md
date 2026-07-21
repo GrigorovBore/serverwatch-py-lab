@@ -20,9 +20,13 @@ I built this project to practice the complete DevOps workflow—from writing the
 * System uptime
 * Hostname
 
+## Note
+
+When running inside Docker, metrics such as CPU usage, memory usage, disk usage, hostname, and uptime reflect the container's execution environment rather than the host operating system.
+
 ---
 
-## Development Environment
+## Development & Deployment Environment
 
 ### Development Machine
 
@@ -38,12 +42,6 @@ I built this project to practice the complete DevOps workflow—from writing the
 * Dell PowerEdge R330
 * Ubuntu Server 26.04 LTS
 * Docker Engine
-
----
-
-## Current Status
-
-Planning and initial setup.
 
 ---
 
