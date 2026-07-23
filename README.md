@@ -8,11 +8,11 @@
 
 ## Project Goal
 
-I built this project to practice the complete DevOps workflow—from writing the application to deploying it on a Linux server. Along the way, I'm gaining hands-on experience with Python, Docker, GitHub Actions, Git, and Linux while learning how these tools fit together in a real deployment workflow.
+I built this project to practice the complete DevOps workflow—from writing the application to deploying it on a Linux server. Along the way, I'm gaining hands-on experience with Python, Docker, Git, and Linux while learning how these tools fit together in a real deployment workflow.
 
 ---
 
-## Planned Features (v1)
+## Features
 
 * CPU usage
 * Memory usage
