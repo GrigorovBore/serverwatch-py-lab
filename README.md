@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**serverwatch-py-lab** is a personal learning project where I'm building a small Python application to practice a complete DevOps workflow. The application collects basic Linux system metrics and is developed on Windows, containerized with Docker, and deployed to a self-hosted Ubuntu server.
+**serverwatch-py-lab** is a personal learning project where I'm building a small Python application to practice a complete DevOps workflow. The application collects basic Linux system metrics and is developed on Windows, and deployed to a self-hosted Ubuntu server.
 
 ---
 
@@ -12,17 +12,21 @@ I built this project to practice the complete DevOps workflow—from writing the
 
 ---
 
+## Project Evolution
+
+Eventually, I decided to remove Docker from the project. My initial intention was to create a program that reports on the health of the machine on which it is installed. To provide accurate data, it should run directly on the operating system it monitors. In that context, Docker was an important learning step, but it also had limitations: when the program ran inside a container, it couldn't accurately observe the host system. In this version I also added operating system detection and reporting of failed services.
+
+---
+
 ## Features
 
+* Hostname
+* Operating system detection
 * CPU usage
 * Memory usage
 * Disk usage
 * System uptime
-* Hostname
-
-## Note
-
-When running inside Docker, metrics such as CPU usage, memory usage, disk usage, hostname, and uptime reflect the container's execution environment rather than the host operating system.
+* Failed services (Linux)
 
 ---
 
@@ -41,7 +45,6 @@ When running inside Docker, metrics such as CPU usage, memory usage, disk usage,
 
 * Dell PowerEdge R330
 * Ubuntu Server 26.04 LTS
-* Docker Engine
 
 ---
 
@@ -53,7 +56,5 @@ Possible future enhancements include:
 * Temperature monitoring
 * Health status reporting
 * Deployment automation
-* REST API
-* Simple web interface
 
 ---
