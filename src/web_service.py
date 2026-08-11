@@ -10,6 +10,7 @@ from monitor import (
 )
 
 app = Flask(__name__)
+app.json.compact = False
 
 @app.route("/")
 def home():
@@ -24,4 +25,4 @@ def home():
     }
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
